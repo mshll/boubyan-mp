@@ -22,7 +22,7 @@ function NavBar() {
         <button className="md:hidden" onClick={() => document.getElementById('mobilenav').classList.remove('hidden')}>
           <Image src={BurgerIcon} alt="Burger" width={24} height={24} className="md:hidden inline-block" />
         </button>
-        <Link href="/" className="flex items-center justify-center gap-x-2 py-6">
+        <Link href="/" className="flex items-center justify-center gap-x-2 py-5">
           <Image src={siteLogo} alt="Logo" width={128} height={128} />
         </Link>
         <div className="md:divide-x divide-grey flex md:flex-1 items-center justify-end gap-4 divide-opacity-50">

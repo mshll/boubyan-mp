@@ -6,8 +6,8 @@ import section6img from '@/images/section6img.svg';
 
 function Section6() {
   const [activeTab, setActiveTab] = useState('');
-  const activeClasses = 'border-b border-red text-red font-semibold text-xs py-4 px-4';
-  const inactiveClasses = 'text-grey font-semibold text-xs py-4 px-4 hover:text-red transition-colors duration-75';
+  const activeClasses = 'border-b border-red text-red font-semibold text-xs py-4 px-4 cursor-pointer';
+  const inactiveClasses = 'text-grey font-semibold text-xs py-4 px-4 hover:text-red transition-colors duration-75 cursor-pointer';
 
   const handleActiveTab = (activeTab) => {
     setActiveTab(activeTab);
